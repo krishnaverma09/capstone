@@ -6,8 +6,7 @@
 body{
     margin: 0px;
     background-color: #020D0D;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 80px;
 }
 
 #header{
@@ -40,6 +39,12 @@ span{
     size: 28px;
     line-height: 32px;
     font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease;
+}
+span:hover{
+    font-size: 42px;
+    color: rgb(0, 170, 255);
+    cursor: pointer;
 }
 
 .divider{
@@ -98,7 +103,14 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
 }
+
+.rc11 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
+}
+
 .rc11 .p1{
     color: #D7E4E4;
     font-size: 20px;
@@ -119,6 +131,11 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.rc12 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
 }
 .rc12 .p1{
     color: #D7E4E4;
@@ -140,10 +157,14 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
 }
+.rc13 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
+}
+
 .rc13 .p1{
-    padding-left: 48px;
-    padding-right: 48px;
     color: #D7E4E4;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -151,8 +172,7 @@ span{
     line-height: 24px;
 }
 .rc13 .p2{
-    padding-left: 48px;
-    padding-right: 48px;
+
     color: rgba(209, 235, 235, 0.62);
     font-size: 17px;
     font-weight: 400;
@@ -173,6 +193,11 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.rc21 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
 }
 .rc21 .p1{
     color: #D7E4E4;
@@ -194,6 +219,11 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.rc22 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
 }
 .rc22 .p1{
     color: #D7E4E4;
@@ -215,7 +245,14 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
 }
+
+.rc23 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
+}
+
 .rc23 .p1{
     color: #D7E4E4;
     font-size: 20px;
@@ -241,7 +278,13 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
 }
+.rc31 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
+}
+
 .rc31 .p1{
     color: #D7E4E4;
     font-size: 20px;
@@ -262,6 +305,11 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.rc32 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
 }
 .rc32 .p1{
     color: #D7E4E4;
@@ -283,6 +331,11 @@ span{
     height: 277px;
     border: 1.5px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.rc33 img:hover{
+    box-shadow: 3px 3px 3px 5px rgb(0, 200, 255);
+    cursor: pointer;
 }
 .rc33 .p1{
     color: #D7E4E4;
@@ -358,6 +411,10 @@ span{
     background-color: #FAFFFF;
     margin-left: 48px;
     border-radius: 16px;
+    transition: all 0.5s ease;
+}
+.Project_image .text_in_image .View_Projects:hover{
+    box-shadow: 3px 3px 3px 5px #00FFFF;
 }
 
 .impact_metrics{
@@ -494,4 +551,491 @@ span{
     font-family: 'Courier New', Courier, monospace;
     line-height: 24px;
     color: #D7E4E4;
+}
+
+.What_client_say{
+    width: 1344px;
+    height: 452px;
+    border-bottom: 1.5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.What_client_say p{
+    font-size: 48px;
+    color: #D7E4E4;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.What_client_say .reviews{
+    display: flex;
+    overflow: auto;
+}
+
+.What_client_say .Zara{
+    width: 288px;
+    height: 226px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    padding: 28px;
+    gap: 18px;
+    background-color: #B8E0E01F;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.What_client_say .Zara:hover{
+    box-shadow: 2px 2px 2px 3px rgb(76, 170, 76);
+}
+
+.What_client_say .Zara .r1{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.What_client_say .Zara .r1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    
+}
+
+.What_client_say .Zara .r1 .text{
+    align-content: center;
+}
+
+.What_client_say .Zara .r1 .text .name{
+    color: #D7E4E4;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 172px;
+}
+
+.What_client_say .Zara .r1 .text .designation{
+    /* font-size: 15px; */
+    font-size: 13px;
+    color: rgba(209, 235, 235, 0.62);
+    width: 172px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.What_client_say .Zara .r2{
+    display: flex;
+}
+
+.What_client_say .Zara .r2 .divider{
+    width: 1.5px;
+    height: 96px;
+    border: 1px solid rgba(145, 182, 182, 0.2);
+    margin-left: 25px;
+    margin-right: 32px;
+}
+
+.What_client_say .Zara .r2 .written{
+    color: #D7E4E4;
+    font-size: 20px;
+    line-height: 19px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.What_client_say .Liam{
+    width: 288px;
+    height: 214px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    padding: 28px;
+    gap: 18px;
+    background-color: #B8E0E01F;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.What_client_say .Liam:hover{
+    box-shadow: 2px 2px 2px 3px rgb(76, 170, 76);
+}
+
+.What_client_say .Liam .r1{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.What_client_say .Liam .r1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    
+}
+
+.What_client_say .Liam .r1 .text{
+    align-content: center;
+}
+
+.What_client_say .Liam .r1 .text .name{
+    color: #D7E4E4;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 172px;
+}
+
+.What_client_say .Liam .r1 .text .designation{
+    /* font-size: 15px; */
+    font-size: 15px;
+    color: rgba(209, 235, 235, 0.62);
+    width: 172px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.What_client_say .Liam .r2{
+    display: flex;
+}
+
+.What_client_say .Liam .r2 .divider{
+    width: 1.5px;
+    height: 72px;
+    border: 1px solid rgba(145, 182, 182, 0.2);
+    margin-left: 25px;
+    margin-right: 32px;
+}
+
+.What_client_say .Liam .r2 .written{
+    color: #D7E4E4;
+    font-size: 20px;
+    line-height: 19px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.What_client_say .Maya{
+    width: 288px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    padding: 28px;
+    gap: 18px;
+    background-color: #B8E0E01F;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.What_client_say .Maya:hover{
+    box-shadow: 2px 2px 2px 3px rgb(76, 170, 76);
+}
+.What_client_say .Maya .r1{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.What_client_say .Maya .r1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    
+}
+
+.What_client_say .Maya .r1 .text{
+    align-content: center;
+}
+
+.What_client_say .Maya .r1 .text .name{
+    color: #D7E4E4;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 172px;
+}
+
+.What_client_say .Maya .r1 .text .designation{
+    /* font-size: 15px; */
+    font-size: 15px;
+    color: rgba(209, 235, 235, 0.62);
+    width: 172px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.What_client_say .Maya .r2{
+    display: flex;
+}
+
+.What_client_say .Maya .r2 .divider{
+    width: 1.5px;
+    height: 120px;
+    border: 1px solid rgba(145, 182, 182, 0.2);
+    margin-left: 25px;
+    margin-right: 32px;
+}
+
+.What_client_say .Maya .r2 .written{
+    color: #D7E4E4;
+    font-size: 20px;
+    line-height: 19px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.What_client_say .Ethan{
+    width: 288px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    padding: 28px;
+    gap: 18px;
+    background-color: #B8E0E01F;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.What_client_say .Ethan:hover{
+    box-shadow: 2px 2px 2px 3px rgb(76, 170, 76);
+}
+
+.What_client_say .Ethan .r1{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.What_client_say .Ethan .r1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    
+}
+
+.What_client_say .Ethan .r1 .text{
+    align-content: center;
+}
+
+.What_client_say .Ethan .r1 .text .name{
+    color: #D7E4E4;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 172px;
+}
+
+.What_client_say .Ethan .r1 .text .designation{
+    /* font-size: 15px; */
+    font-size: 15px;
+    color: rgba(209, 235, 235, 0.62);
+    width: 172px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.What_client_say .Ethan .r2{
+    display: flex;
+}
+
+.What_client_say .Ethan .r2 .divider{
+    width: 1.5px;
+    height: 96px;
+    border: 1px solid rgba(145, 182, 182, 0.2);
+    margin-left: 25px;
+    margin-right: 32px;
+}
+
+.What_client_say .Ethan .r2 .written{
+    color: #D7E4E4;
+    font-size: 20px;
+    line-height: 19px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.What_client_say .Olivia{
+    width: 288px;
+    height: 202px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    padding: 28px;
+    gap: 18px;
+    background-color: #B8E0E01F;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.What_client_say .Olivia:hover{
+    box-shadow: 2px 2px 2px 3px rgb(76, 170, 76);
+}
+
+.What_client_say .Olivia .r1{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.What_client_say .Olivia .r1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    
+}
+
+.What_client_say .Olivia .r1 .text{
+    align-content: center;
+}
+
+.What_client_say .Olivia .r1 .text .name{
+    color: #D7E4E4;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 172px;
+}
+
+.What_client_say .Olivia .r1 .text .designation{
+    /* font-size: 15px; */
+    font-size: 15px;
+    color: rgba(209, 235, 235, 0.62);
+    width: 172px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.What_client_say .Olivia .r2{
+    display: flex;
+}
+
+.What_client_say .Olivia .r2 .divider{
+    width: 1.5px;
+    height: 72px;
+    border: 1px solid rgba(145, 182, 182, 0.2);
+    margin-left: 25px;
+    margin-right: 32px;
+}
+
+.What_client_say .Olivia .r2 .written{
+    color: #D7E4E4;
+    font-size: 20px;
+    line-height: 19px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact .small_contact{
+    width: 400px;
+    height: 260px;
+}
+
+.contact .small_contact p{
+    color: #D7E4E4;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.contact .small_contact .inline_box{
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.b1, .b2, .b3, .b4, .b5{
+    width: 56px;
+    height: 64px;
+    border-radius: 16px;
+    border: 1.5px;
+    padding: 8px 18px;
+    background-color: #B8E0E01F;
+    color: rgba(209, 235, 235, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    background-color: #00FFFF;
+    height: 36px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease;
+}
+.submit:hover{
+    box-shadow: 3px 3px 3px 5px rgb(244, 5, 148);
+    cursor: pointer;
+}
+.skip:hover{
+    cursor: pointer;
+}
+
+.contact .small_contact .skip{
+    font-size: 15px;
+    color: #00FFFF;
+    font-weight: 500;
+}
+
+.footer{
+    width: 1344px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ._2023_Neonport{
+    color: rgba(209, 235, 235, 0.62);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.footer .contact{
+    width: 128px;
+    height: 48px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(145, 182, 182, 0.2);
+    padding: 12px 28px;
+    color: #D7E4E4;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }

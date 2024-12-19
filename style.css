@@ -23,7 +23,6 @@ body{
     height: 28px;
     font-size: 28px;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .navigation{
@@ -38,7 +37,6 @@ span{
     font-weight: 400;
     size: 28px;
     line-height: 32px;
-    font-family: 'Courier New', Courier, monospace;
     transition: all 0.5s ease;
 }
 span:hover{
@@ -69,10 +67,9 @@ span:hover{
 }
 
 .heading_with_photo p{
-    /* font-size: 120px; */
-    font-size: 90px;
+    font-size: 120px;
+    /* font-size: 90px; */
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #D7E4E4;
 }
@@ -114,7 +111,6 @@ span:hover{
 .rc11 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -123,7 +119,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc12 img{
@@ -140,7 +135,6 @@ span:hover{
 .rc12 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -149,7 +143,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc13 img{
@@ -167,7 +160,6 @@ span:hover{
 .rc13 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -177,7 +169,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .row2{
@@ -202,7 +193,6 @@ span:hover{
 .rc21 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -211,7 +201,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc22 img{
@@ -228,7 +217,6 @@ span:hover{
 .rc22 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -237,7 +225,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc23 img{
@@ -256,7 +243,6 @@ span:hover{
 .rc23 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -265,7 +251,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .row3{
@@ -288,7 +273,6 @@ span:hover{
 .rc31 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -297,7 +281,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc32 img{
@@ -314,7 +297,6 @@ span:hover{
 .rc32 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -323,7 +305,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .rc33 img{
@@ -340,7 +321,6 @@ span:hover{
 .rc33 .p1{
     color: #D7E4E4;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 24px;
 }
@@ -349,7 +329,6 @@ span:hover{
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .text_after_grid{
@@ -381,7 +360,6 @@ span:hover{
     font-size: 34px;
     line-height: 40px;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .Project_image .text_in_image p{
@@ -393,7 +371,6 @@ span:hover{
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .Project_image .text_in_image .View_Projects{
@@ -402,10 +379,10 @@ span:hover{
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 28px;
-    /* padding-right: 28px; */
-    padding-right: 24px;
+    padding-right: 28px;
+    /* padding-right: 24px; */
     font-weight: 400;
-    /* font-size: 20px; */
+    font-size: 20px;
     width: 177px;
     height: 48px;
     background-color: #FAFFFF;
@@ -460,13 +437,11 @@ span:hover{
     color: #D7E4E4;
     font-weight: 600;
     line-height: 52px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .impact_metrics .impact_numbers_row1 .inrc11 .text{
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
     line-height: 24px;
     color: #D7E4E4;
 }
@@ -485,13 +460,11 @@ span:hover{
     color: #D7E4E4;
     font-weight: 600;
     line-height: 52px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .impact_metrics .impact_numbers_row1 .inrc12 .text{
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
     line-height: 24px;
     color: #D7E4E4;
 }
@@ -517,13 +490,11 @@ span:hover{
     color: #D7E4E4;
     font-weight: 600;
     line-height: 52px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .impact_metrics .impact_numbers_row2 .inrc21 .text{
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
     line-height: 24px;
     color: #D7E4E4;
 }
@@ -542,13 +513,11 @@ span:hover{
     color: #D7E4E4;
     font-weight: 600;
     line-height: 52px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .impact_metrics .impact_numbers_row2 .inrc22 .text{
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
     line-height: 24px;
     color: #D7E4E4;
 }
@@ -568,7 +537,6 @@ span:hover{
     font-weight: 600;
     text-align: center;
     margin-bottom: 48px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .What_client_say .reviews{
@@ -614,18 +582,16 @@ span:hover{
     font-size: 15px;
     line-height: 20px;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
     height: 20px;
     width: 172px;
 }
 
 .What_client_say .Zara .r1 .text .designation{
-    /* font-size: 15px; */
-    font-size: 13px;
+    font-size: 15px;
+    /* font-size: 13px; */
     color: rgba(209, 235, 235, 0.62);
     width: 172px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 20px;
 }
@@ -645,10 +611,9 @@ span:hover{
 .What_client_say .Zara .r2 .written{
     color: #D7E4E4;
     font-size: 20px;
-    line-height: 19px;
-    /* line-height: 24px; */
+    /* line-height: 19px; */
+    line-height: 24px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .What_client_say .Liam{
@@ -689,18 +654,15 @@ span:hover{
     font-size: 15px;
     line-height: 20px;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
     height: 20px;
     width: 172px;
 }
 
 .What_client_say .Liam .r1 .text .designation{
-    /* font-size: 15px; */
     font-size: 15px;
     color: rgba(209, 235, 235, 0.62);
     width: 172px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 20px;
 }
@@ -723,7 +685,6 @@ span:hover{
     line-height: 19px;
     /* line-height: 24px; */
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .What_client_say .Maya{
@@ -770,12 +731,10 @@ span:hover{
 }
 
 .What_client_say .Maya .r1 .text .designation{
-    /* font-size: 15px; */
     font-size: 15px;
     color: rgba(209, 235, 235, 0.62);
     width: 172px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 20px;
 }
@@ -795,10 +754,9 @@ span:hover{
 .What_client_say .Maya .r2 .written{
     color: #D7E4E4;
     font-size: 20px;
-    line-height: 19px;
-    /* line-height: 24px; */
+    /* line-height: 19px; */
+    line-height: 24px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .What_client_say .Ethan{
@@ -845,12 +803,10 @@ span:hover{
 }
 
 .What_client_say .Ethan .r1 .text .designation{
-    /* font-size: 15px; */
     font-size: 15px;
     color: rgba(209, 235, 235, 0.62);
     width: 172px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 20px;
 }
@@ -861,7 +817,7 @@ span:hover{
 
 .What_client_say .Ethan .r2 .divider{
     width: 1.5px;
-    height: 96px;
+    height: 50px;
     border: 1px solid rgba(145, 182, 182, 0.2);
     margin-left: 25px;
     margin-right: 32px;
@@ -870,10 +826,9 @@ span:hover{
 .What_client_say .Ethan .r2 .written{
     color: #D7E4E4;
     font-size: 20px;
-    line-height: 19px;
-    /* line-height: 24px; */
+    /* line-height: 19px; */
+    line-height: 24px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .What_client_say .Olivia{
@@ -914,19 +869,16 @@ span:hover{
     font-size: 15px;
     line-height: 20px;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
     height: 20px;
     width: 172px;
 }
 
 .What_client_say .Olivia .r1 .text .designation{
-    /* font-size: 15px; */
     font-size: 15px;
     color: rgba(209, 235, 235, 0.62);
     width: 172px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+        font-weight: 400;
     line-height: 20px;
 }
 
@@ -945,10 +897,9 @@ span:hover{
 .What_client_say .Olivia .r2 .written{
     color: #D7E4E4;
     font-size: 20px;
-    line-height: 19px;
-    /* line-height: 24px; */
+    /* line-height: 19px; */
+    line-height: 24px;
     font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .contact{
